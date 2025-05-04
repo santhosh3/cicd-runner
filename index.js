@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/api', (req, res) => {
-    return res.json({message : 'Hello World'})
+    return res.json({message : 'Hello World This is Santhosh'})
 })
 
 
